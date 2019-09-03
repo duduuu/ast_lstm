@@ -1,0 +1,4 @@
+( obj1 ( Type SCatalog ) ( Pages R2 ) )
+( obj2 ( Type SPage ) ( Kids R3 ) ( Count I1 ) )
+( obj3 ( Type SPage ) ( Parent R2 ) ( MediaBox I0 I0 I600 I400 ) ( Resources S<> ) )
+

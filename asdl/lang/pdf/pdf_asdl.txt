@@ -1,0 +1,10 @@
+# define primitive fields
+var, pred
+
+expr = Apply(pred name, expr? op)
+	| PdfDict(expr* args)
+	| PdfArray(expr* args)
+	| PdfObject(var value)
+	| PdfList(var value)
+	| PdfString(var value)
+	| BasePdfName(var value)
