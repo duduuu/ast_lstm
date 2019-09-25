@@ -1,9 +1,9 @@
 # define primitive fields
 var, pred
 
+stmt = PdfDict(expr* args)
 expr = Apply(pred name, expr? op)
-	| PdfDict(expr* args)
-	| PdfArray(expr* args)
+	| PdfArray(stmt* args)
 	| PdfObject(var value)
 	| PdfList(var value)
 	| PdfString(var value)
